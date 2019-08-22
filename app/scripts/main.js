@@ -14,8 +14,7 @@ gh_fullpath.show_fullpath = function() {
   }
 
   Array.prototype.forEach.call(targets, target => {
-    target.classList.remove("classcss-truncate")
-    target.classList.remove("css-truncate-target")
+    target.text = target.title
   });
 };
 
